@@ -6,6 +6,7 @@ RUN apt-get -qq update && \
         avrdude-doc \
         gcc-avr \
         gdb-avr \
+        avr-libc \
         vim \
         exuberant-ctags \
         git-all \
