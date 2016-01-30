@@ -8,7 +8,11 @@ RUN apt-get -qq update && \
         gdb-avr \
         vim \
         exuberant-ctags \
-        git-all
+        git-all \
+        python \
+        gcc \
+        g++ \
+        make
 
 
 RUN git clone https://github.com/stkerr/Config-Files.git &&\
